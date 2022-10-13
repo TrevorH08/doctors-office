@@ -18,7 +18,7 @@ button{
   width: 100%;
   height: 5vh;
   padding-left: 0.5em;
-  background-color: orangered;
+  background-color: white;
 }
 
 #renderbody{
@@ -35,6 +35,11 @@ button{
   top: 95vh;
   left: 0px;
   padding-left: 0.5em;
-  background-color: orangered;
+  background-color: white;
   height: 5vh;
+}
+
+label{
+  padding-left: 7px;
+  padding-right: 7px;
 }

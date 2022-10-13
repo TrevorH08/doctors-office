@@ -9,9 +9,9 @@
 
 @using (Html.BeginForm())
 {
-    @Html.Display("Doctor Name:")
+    @Html.LabelFor(model => model.DoctorName, "Doctor Name: ")
     @Html.TextBoxFor(model => model.DoctorName)
-    @Html.Display("Specialty Area:")
+    @Html.Label("Specialty Area: ")
     @Html.EditorFor(model => model.Speciality)
 
     <input type="submit" value="Add new Doctor" class="btn btn-default" />
